@@ -6,7 +6,7 @@
     <remote name="OmegaBeam69" fetch="https://github.com/OmegaBeam69" clone-depth="1" />
 
     <!-- Removals -->
-
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
     <!-- Repos -->
     <!-- Device -->
     <project path="device/xiaomi/raphael-kernel" name="device_xiaomi_raphael-kernel" remote="OmegaBeam69" revision="15.0" />
