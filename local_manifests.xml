@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="OmegaBeam69" fetch="https://github.com/OmegaBeam69" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/raphael-kernel" name="device_xiaomi_raphael-kernel" remote="OmegaBeam69" revision="15.0" />
+    <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="OmegaBeam69" revision="bliss-15" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="OmegaBeam69" revision="15.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="OmegaBeam69" revision="fifteen" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="OmegaBeam69" revision="bliss-15" />
+    <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" remote="OmegaBeam69" revision="fifteen" />
+
+</manifest>
