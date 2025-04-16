@@ -4,9 +4,14 @@
 
     <!-- Remotes -->
     <remote name="OmegaBeam69" fetch="https://github.com/OmegaBeam69" clone-depth="1" />
+       <remote name="hub" fetch="https://github.com/" />
+    
 
     <!-- Removals -->
     <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    
     <!-- Repos -->
     <!-- Device -->
     <project path="device/xiaomi/raphael-kernel" name="device_xiaomi_raphael-kernel" remote="OmegaBeam69" revision="15.0" />
@@ -25,5 +30,7 @@
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="OmegaBeam69" revision="bliss-15" />
     <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" remote="OmegaBeam69" revision="fifteen" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio.git" remote="hub" revision="lineage-22.2-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media.git" remote="hub" revision="lineage-22.2-caf-sm8150" />
 
 </manifest>
