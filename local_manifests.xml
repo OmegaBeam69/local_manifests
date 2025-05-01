@@ -23,7 +23,7 @@
     <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="OmegaBeam69" revision="15.0" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="OmegaBeam69" revision="fifteen" />
+    <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="OmegaBeam69" revision="pixel-15" />
 
     <!-- Vendor - Common -->
 
